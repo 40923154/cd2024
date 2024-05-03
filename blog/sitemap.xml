@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-04-26T06:09:50-00:00</lastmod>
+<lastmod>2024-05-03T05:57:23-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-04-26T06:09:50-00:00</lastmod>
+<lastmod>2024-05-03T05:57:23-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-04-26T06:09:50-00:00</lastmod>
+<lastmod>2024-05-03T05:57:23-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-04-26T06:09:50-00:00</lastmod>
+<lastmod>2024-05-03T05:57:23-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -39,8 +39,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./2024-Spring-w10-blog-tutorial.html</loc>
+<lastmod>2024-05-03T05:54:09+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./2024-Spring-w9-blog-tutorial.html</loc>
-<lastmod>2024-04-26T06:08:24+08:00</lastmod>
+<lastmod>2024-05-03T05:57:11+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -95,6 +102,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./category/w10.html</loc>
+<lastmod>2024-05-03T05:54:09+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./category/w2.html</loc>
 <lastmod>2024-04-12T06:28:11+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -131,14 +145,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/w9.html</loc>
-<lastmod>2024-04-26T06:08:24+08:06</lastmod>
+<lastmod>2024-05-03T05:57:11+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/replit-zhang-hao-wei-hu-fen-zu-cang-chu.html</loc>
+<lastmod>2024-05-03T05:54:09+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/google-ai.html</loc>
-<lastmod>2024-04-26T06:08:24+08:06</lastmod>
+<lastmod>2024-05-03T05:57:11+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -180,7 +201,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./author/40923154.html</loc>
-<lastmod>2024-04-26T06:08:24+08:06</lastmod>
+<lastmod>2024-05-03T05:57:11+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
