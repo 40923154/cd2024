@@ -5,78 +5,11 @@
 <p>倉儲:<a href="https://github.com/40923154/cd2024"> https://github.com/40923154/cd2024</a></p>
 <p></p>
 <h1>cmsimde</h1>
-<p><span style="background-color: #ccffcc;">SMap</span> - SiteMap - 依照階次列出網站的所有頁面.</p>
-<p><span style="background-color: #ccffcc;">EditA</span> - Edit All page - 將所有頁面放入編輯模式中, 主要用來處理頁面搬遷, 刪除或決定衝突頁面內容版本.</p>
-<p><span style="background-color: #ccffcc;">Edit</span> - Edit page - 先選擇要編輯的單一頁面後, 再點選 Edit, 即可進入單一頁面的編輯模式.</p>
-<p><span style="background-color: #ccffcc;">Config</span> - Configure Site - 編輯頁面標題與管理者密碼.</p>
-<p><span style="background-color: #ccffcc;">Search</span> - 動態頁面內容的關鍵字搜尋.</p>
-<p><span style="background-color: #ccffcc;">IUpload</span> - Image file Upload - 圖檔的上傳功能, 可以上傳 jpg, png 與 gif 檔案, 其中若在手機上傳圖檔, 系統會自動將圖片檔案縮小為 800x800 大小.</p>
-<p><span style="background-color: #ccffcc;">IList</span> - Image file List - 列出可以直接在頁面編輯模式中引用的圖片檔案.</p>
-<p><span style="background-color: #ccffcc;">FUpload</span> - File Upload - 一般檔案的上傳功能, 目前可以上傳的檔案副檔名包括 'jpg', 'png', 'gif', '7z', 'pdf', 'zip', 'ttt', 'stl', 'txt', 'html', 'mp4' 等, 使用者可以自行修改.</p>
-<p><span style="background-color: #ccffcc;">FList</span> - File List - 列出可以直接在頁面編輯模式中引用的上傳檔案.</p>
-<p><span style="background-color: #ccffcc;">Logout</span> - 登出頁面編輯模式.</p>
-<p><span style="background-color: #ccffcc;">Convert</span> - 將動態網站中位於 config/content.htm 檔案, 透過分頁設定轉為 content 目錄中的靜態網頁.</p>
-<p><span style="background-color: #ccffcc;">acp</span> - git add, git commit 與 git push, 通常只有在 localhost 或自架主機上利用網頁表單協助將倉儲改版內容推向 Github 倉儲.</p>
-<p><span style="background-color: #ccffcc;">SStatic</span> - Start Static Site - 利用 Python 啟動網站伺服功能, 可以讓使用者檢查轉檔後的靜態網站內容.</p>
-<p><span style="background-color: #ccffcc;">RStatic</span> - Replit Static Site URL - 僅用於 Replit 模式, 當使用者按下 SStatic 後, 可以按下 RStatic 進入當下尚未推向 Github Pages 的靜態網站.</p>
-<p><span style="background-color: #ccffcc;">80</span> - 由 init.py 中 static_port 所決定的連結字串, 一般不使用 80, 只有在 Replit 中為了與動態網站共用 port, 才特別設為 80.</p>
-<p></p>
-<h1>Replit</h1>
-<p><a href="https://replit.com">https://replit.com</a></p>
-<p>利用 init_replit 指令安裝所需 Python 模組<br/><br/>chmod u+x init_replit<br/><br/>./init_replit</p>
-<p dir="auto">On Replit:</p>
-<p dir="auto">.replit: python3 main.py</p>
-<p dir="auto">chmod u+x cms init_replit</p>
-<p dir="auto">./init_replit</p>
-<p dir="auto" style="padding-left: 30px;">for cmsimde_site (not needed): git submodule update --init --recursive</p>
-<p dir="auto" style="padding-left: 30px;">for cmsimde: pip install flask flask_cors bs4 lxml pelican markdown gevent</p>
-<p dir="auto">password generator: <a href="https://mde.tw/cmsite/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/b92b16621dd0246c352cf13d6463b333/raw/0bfa669750aba3abe48554509bbd43d65b6e5c82/hashlib_password_generator.py">https://mde.tw/cmsite/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/b92b16621dd0246c352cf13d6463b333/raw/0bfa669750aba3abe48554509bbd43d65b6e5c82/hashlib_password_generator.py</a> </p>
-<p dir="auto"></p>
-<p dir="auto">for IPv6 only Ubuntu:<br/><br/>.ssh 目錄中的 config, 將 SSH session 名稱設為 github.com:<br/><br/>Host github.com<br/>User git<br/>Hostname github.com<br/>ProxyCommand /usr/bin/ncat --proxy p4.cycu.org:3128 --proxy-type http %h %p<br/><br/>for Replit:<br/><br/>.ssh 目錄中的 config, 將 SSH session 名稱設為 github.com:<br/><br/>Host github.com<br/>User git<br/>Hostname github.co<br/>#since Replit works for IPv4, therefore no ProxyCommand setting needed<br/>#ProxyCommand /usr/bin/ncat --proxy p4.cycu.org:3128 --proxy-type http %h %p</p>
-<p></p>
-<p></p>
-<h1>Brython</h1>
-<p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a></p>
-<h4>Examples:</h4>
-<p style="padding-left: 30px;"><a href="https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d">https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d</a></p>
-<p style="padding-left: 30px;"><a href="https://www.geeksforgeeks.org/python-programming-examples/">https://www.geeksforgeeks.org/python-programming-examples/</a></p>
-<p style="padding-left: 30px;"><a href="https://www.programiz.com/python-programming/examples">https://www.programiz.com/python-programming/examples</a></p>
-<p style="padding-left: 30px;"><a href="https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/">https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/</a></p>
-<h4>Python Tutorial:</h4>
-<p style="padding-left: 30px;"><a href="https://docs.python.org/3/tutorial/">https://docs.python.org/3/tutorial/</a></p>
-<p style="padding-left: 30px;"><a href="https://docs.python.org/3/tutorial/introduction.html">An informal introduction to Python</a></p>
-<h4>Indentation (Python 採 4 個 Spaces 縮排, 以界定執行範圍)</h4>
-<h4>Variables (<a href="https://github.com/python/cpython/blob/3.11/Lib/keyword.py">Python Keywords</a>)</h4>
-<h4>Comments (# 單行註解, 三個單引號或三個雙引號標註多行註解)</h4>
-<h4><a href="https://docs.python.org/3/tutorial/introduction.html#numbers">Numbers</a> (整數 int(), 浮點數 float())</h4>
-<h4><a href="https://docs.python.org/3/tutorial/introduction.html#strings">Strings</a> (字串)</h4>
-<h4>print (Python 內建函式, <a href="https://docs.python.org/3/library/functions.html#print">print()</a> 函式)</h4>
-<p><a href="https://docs.python.org/3/tutorial/controlflow.html">Python control flow tools</a></p>
-<h4 style="padding-left: 30px;"><a href="https://docs.python.org/3/tutorial/controlflow.html#for-statements">for</a></h4>
-<h4 style="padding-left: 30px;"><a href="https://docs.python.org/3/tutorial/controlflow.html#if-statements">if</a></h4>
-<h4 style="padding-left: 30px;"><a href="https://docs.python.org/3/tutorial/controlflow.html#the-range-function">range</a></h4>
-<h4>open</h4>
-<h4>read</h4>
-<h4><a href="https://docs.python.org/3/tutorial/introduction.html#lists">lists</a></h4>
-<h4><a href="https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences">tuples</a></h4>
-<h4><a href="https://docs.python.org/3/tutorial/datastructures.html#dictionaries">dictionaries</a></h4>
-<h4><a href="https://docs.python.org/3/tutorial/controlflow.html#defining-functions">functions</a></h4>
-<h4><a href="https://docs.python.org/3/tutorial/errors.html#exceptions">try ... except</a></h4>
-<h4><a href="https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops">break</a></h4>
-<h4><a href="https://docs.python.org/3/tutorial/controlflow.html#pass-statements">pass</a></h4>
-<h4><a href="https://docs.python.org/3/tutorial/classes.html?highlight=classes">classes</a></h4>
-<p>這個頁面 demo 如何在同一頁面下納入多個線上 Ace 編輯器與執行按鈕 (<a href="/downloads/practice_html.txt">practice_html.txt</a> 動態頁面超文件).</p>
-<p><a href="/downloads/practice_html.txt">practice_html.txt</a> 動態頁面超文件應該可以在啟動 Brython 時, 設定將 .py 檔案放入 downloads/py 目錄中引用.</p>
-<p>亦即將所有對應的 html 也使用 Brython 產生, 然後寫為 <a href="https://docs.python.org/3/tutorial/classes.html">class</a> 後, 在範例導入時透過 <a href="https://docs.python.org/3/tutorial/classes.html#instance-objects">instance</a> 引用.</p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">&lt;!-- 啟動 Brython --&gt;
-&lt;script&gt;
-window.onload=function(){
-brython({debug:1, pythonpath:['/static/','./../downloads/py/']});
-}
-&lt;/script&gt;</pre>
-<p>從 1 累加到 100:</p>
-<p><button id="add1to100">1 add to 100</button></p>
-<p>將 iterable 與 iterator <a href="https://home.gamer.com.tw/creationDetail.php?sn=4337438">相關說明</a>, 利用 Brython 與 Ace Editor 整理在這個頁面.</p>
+<h1>latex翻譯</h1>
+<p><a href="https://drive.google.com/file/d/1lIpNuxpie8SF12aAXxsnn-cR0IVh9idR/view?usp=drive_link">https://drive.google.com/file/d/1lIpNuxpie8SF12aAXxsnn-cR0IVh9idR/view?usp=drive_link</a></p>
+<h1>期中個人影片</h1>
+<p><span>40923154 </span><a href="https://youtu.be/pzs8_sTKCiM">https://youtu.be/pzs8_sTKCiM</a></p>
+<p><span style="background-color: #ccffcc;"></span></p>
 <!-- 導入 brython 程式庫 -->
 <p>
 <script src="/static/brython.js"></script>
@@ -186,7 +119,13 @@ doc["add1to100"].bind('click', add)
 <p><!-- add 1 to 100 結束--></p>
 <!-- editor1 開始 -->
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
-<div id="kw_editor1" style="width: 600px; height: 300px;"></div>
+<h1 id="kw_editor1" style="width: 600px; height: 300px;">W12作業</h1>
+<p></p>
+<p></p>
+<p></p>
+<div style="width: 600px; height: 300px;"></div>
+<div style="width: 600px; height: 300px;"></div>
+<div style="width: 600px; height: 300px;"></div>
 <p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
 <p><!-- 存擋表單開始 --></p>
 <form><label>Filename: <input id="kw_filename" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src1', 'kw_filename1');" type="submit" value="Save"/></form>
