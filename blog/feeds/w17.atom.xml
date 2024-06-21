@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 - w17</title><link href="./" rel="alternate"></link><link href="./feeds/w17.atom.xml" rel="self"></link><id>./</id><updated>2024-06-20T01:56:06+08:00</updated><entry><title>2024 Spring 課程17</title><link href="./2024-Spring-w17-blog-tutorial.html" rel="alternate"></link><published>2024-06-14T15:12:00+08:00</published><updated>2024-06-20T01:56:06+08:00</updated><author><name>40923154</name></author><id>tag:None,2024-06-14:./2024-Spring-w17-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 - w17</title><link href="./" rel="alternate"></link><link href="./feeds/w17.atom.xml" rel="self"></link><id>./</id><updated>2024-06-21T06:21:40+08:00</updated><entry><title>2024 Spring 課程17</title><link href="./2024-Spring-w17-blog-tutorial.html" rel="alternate"></link><published>2024-06-14T15:12:00+08:00</published><updated>2024-06-21T06:21:40+08:00</updated><author><name>40923154</name></author><id>tag:None,2024-06-14:./2024-Spring-w17-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
 &lt;h1&gt;內容管理系統17&lt;/h1&gt;
-&lt;p&gt;繪製任務零件 並組合&lt;/p&gt;</content><category term="w17"></category><category term="w17任務"></category></entry></feed>
+&lt;p&gt;繪製任務零件 並組合，組合和測試時發現一件事情，設計車體時要避免設計過度複雜，因為在COPPLIA環境下，這些因素都會影響它的平衡性，導致車體翻覆。&lt;/p&gt;</content><category term="w17"></category><category term="w17任務"></category></entry></feed>
